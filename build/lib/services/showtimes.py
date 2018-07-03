@@ -33,6 +33,5 @@ def showtimes_record(date):
     print (showtimes[date])
     return nice_json(showtimes[date])
 
-
 if __name__ == "__main__":
     app.run(port=5002, debug=True)
